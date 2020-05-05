@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93f71f17-8b9d-4551-83f2-8d6afa8e66b3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1bCj7X8HnCHOMDYbVRSyts7cq5x" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="E:/maktab/maktab Classroom Training/maktab-99-02-04" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.18882681" />
+    <property name="project.structure.side.proportion" value="0.3647343" />
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.Main" />
+      <module name="HW10_Refactored" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HW10_Refactored" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93f71f17-8b9d-4551-83f2-8d6afa8e66b3" name="Default Changelist" comment="" />
+      <created>1588142802565</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588142802565</updated>
+      <workItem from="1588142806081" duration="17000" />
+      <workItem from="1588143029564" duration="13977000" />
+      <workItem from="1588221814139" duration="330000" />
+      <workItem from="1588237998978" duration="6069000" />
+      <workItem from="1588251351990" duration="479000" />
+      <workItem from="1588308310349" duration="1777000" />
+      <workItem from="1588336583415" duration="626000" />
+      <workItem from="1588340435446" duration="2403000" />
+      <workItem from="1588614680248" duration="1850000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1588142821732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1588142821732" />
+    <state x="583" y="157" key="FileChooserDialogImpl" timestamp="1588222148455">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="583" y="157" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588222148455" />
+    <state width="1493" height="315" key="GridCell.Tab.0.bottom" timestamp="1588310082620">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="315" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588310082620" />
+    <state width="1493" height="315" key="GridCell.Tab.0.center" timestamp="1588310082620">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="315" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588310082620" />
+    <state width="1493" height="315" key="GridCell.Tab.0.left" timestamp="1588310082619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="315" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588310082619" />
+    <state width="1493" height="315" key="GridCell.Tab.0.right" timestamp="1588310082620">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="315" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588310082620" />
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom" timestamp="1588248578879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588248578879" />
+    <state width="1493" height="288" key="GridCell.Tab.1.center" timestamp="1588248578879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588248578879" />
+    <state width="1493" height="288" key="GridCell.Tab.1.left" timestamp="1588248578879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588248578879" />
+    <state width="1493" height="288" key="GridCell.Tab.1.right" timestamp="1588248578879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588248578879" />
+    <state x="359" y="0" key="SettingsEditor" timestamp="1588162854265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="359" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588162854265" />
+    <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1588402060590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588402060590" />
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1588337993190">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588337993190" />
+    <state x="937" y="150" key="extract.method.dialog" timestamp="1588175237874">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="937" y="150" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1588175237874" />
+    <state x="209" y="40" key="new project wizard" timestamp="1588661768541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="40" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1588661768541" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588402403621">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588402403621" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/utility/CustomerUtilityMethods.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/utility/OrderUtilityMethods.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/utility/CommonUtilityMethods.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/view/Main.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/utility/OrderUtilityMethods.java</url>
+          <line>92</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/utility/OrderUtilityMethods.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
