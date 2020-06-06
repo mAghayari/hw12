@@ -75,20 +75,22 @@ public class CartItemView {
         }
     }
 
-    private CartItem addNewOrderItem(Cart cart, ArrayList<Product> products, int id, int count, List<CartItem> orderedItems) {
+    private void addNewOrderItem(Cart cart, ArrayList<Product> products, int id, int count, List<CartItem> orderedItems) {
         CartItem cartItem = new CartItem();
         cartItem.setCount(count);
         cartItem.setCart(cart);
         cartItem.setProduct(products.get(id - 1));
         orderedItems.add(cartItem);
-        return cartItem;
     }
 
-    private List<CartItem> updateAnOrderItem(int id, int count, List<CartItem> orderedItems) {
-        int index;
-        index = orderedItems.indexOf(id);
-        count += orderedItems.get(index).getCount();
-        orderedItems.get(index).setCount(count);
-        return orderedItems;
+    private void updateAnOrderItem(int id, int count, List<CartItem> cartItems) {
+        for (CartItem cartItem : cartItems) {
+            if (cartItem.getProduct().getId() == id) {
+                int index = cartItems.indexOf(cartItem);
+                count += cartItems.get(index).getCount();
+                cartItems.get(index).setCount(count);
+                break;
+            }
+        }
     }
 }

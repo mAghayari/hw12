@@ -2,53 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93f71f17-8b9d-4551-83f2-8d6afa8e66b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/CartServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/AdminView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/CartItemView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/CartView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/CustomerView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ProductView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/jdbc/dao/AdminDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/jdbc/dao/Connector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/jdbc/dao/CustomerDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/jdbc/dao/OrderDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/jdbc/dao/ProductDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/jdbc/dto/admin/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/jdbc/dto/customer/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/jdbc/dto/customer/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/jdbc/dto/order/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/jdbc/dto/order/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/jdbc/dto/product/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/jdbc/dto/product/ProductCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/utility/AddressUtilityMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/utility/AdminUtilityMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/utility/CommonUtilityMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/utility/CustomerUtilityMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/utility/OrderUtilityMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/utility/ProductUtilityMethods.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HW10_Refactored/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW10_Refactored/view/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/AdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dao/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/Connector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/CustomerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/CartDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dto/admin/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/admin/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dto/customer/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/address/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dto/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dto/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dto/order/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/cart/CartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dto/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/dto/product/ProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/product/ProductCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/AddressUtilityMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GettingAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/AdminUtilityMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/AdminServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/CommonUtilityMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GetUserInputs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/CustomerUtilityMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/CustomerServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/OrderUtilityMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/ProductUtilityMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ProductServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/CartItemView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/CartItemView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,12 +88,24 @@
       <workItem from="1588340435446" duration="2403000" />
       <workItem from="1588614680248" duration="1850000" />
       <workItem from="1591359732918" duration="435000" />
-      <workItem from="1591374701324" duration="26312000" />
+      <workItem from="1591374701324" duration="28171000" />
     </task>
+    <task id="LOCAL-00001" summary="enhancing CartDao methods">
+      <created>1591441365444</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591441365444</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="enhancing CartDao methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="enhancing CartDao methods" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#Project_Structure" timestamp="1588142821732">
@@ -152,26 +120,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1591439900907" />
+    <state x="283" y="10" key="CommitChangelistDialog2" timestamp="1591441361841">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="283" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591441361841" />
     <state x="583" y="157" key="FileChooserDialogImpl" timestamp="1588222148455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="583" y="157" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588222148455" />
-    <state width="1493" height="243" key="GridCell.Tab.0.bottom" timestamp="1591389667111">
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom" timestamp="1591442442944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591389667111" />
-    <state width="1493" height="243" key="GridCell.Tab.0.center" timestamp="1591389667111">
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591442442944" />
+    <state width="1493" height="243" key="GridCell.Tab.0.center" timestamp="1591442442944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591389667111" />
-    <state width="1493" height="243" key="GridCell.Tab.0.left" timestamp="1591389667111">
+    <state width="1493" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591442442944" />
+    <state width="1493" height="243" key="GridCell.Tab.0.left" timestamp="1591442442944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591389667111" />
-    <state width="1493" height="243" key="GridCell.Tab.0.right" timestamp="1591389667111">
+    <state width="1493" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591442442944" />
+    <state width="1493" height="243" key="GridCell.Tab.0.right" timestamp="1591442442944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591389667111" />
+    <state width="1493" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591442442944" />
     <state width="1493" height="387" key="GridCell.Tab.1.bottom" timestamp="1591385425535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -200,6 +172,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588337993190" />
+    <state x="580" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591442489408">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="580" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1591442489408" />
     <state x="937" y="150" key="extract.method.dialog" timestamp="1591439002171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
