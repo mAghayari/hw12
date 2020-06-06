@@ -100,7 +100,7 @@ public class CustomerView {
         Customer customer = getSignInInfo();
         customer = customerServices.findCustomer(customer);
         if (!Objects.equals(customer, null))
-            System.out.println("welcome " + customer.getUserName());
+            System.out.println("welcome " + customer.getUserName() + "\n--------------------------");
         else
             System.out.println("InCorrect UserName Or Password");
         return customer;

@@ -30,7 +30,7 @@ public class AdminView {
         Admin admin = getSignInInfo();
         admin = adminServices.findAdmin(admin);
         if (!Objects.equals(admin.getUserName(), null)) {
-            System.out.println("welcome " + admin.getUserName());
+            System.out.println("Welcome " + admin.getUserName() + "\n--------------------------");
         } else {
             System.out.println("InCorrect UserName Or Password");
         }

@@ -14,7 +14,7 @@ public class CartView {
     public static void printOrder(CartServices cartServices, Cart cart) {
         CartItemView cartItemView = new CartItemView();
         if (cart.getOrderedItems().isEmpty())
-            System.out.println("your orderList is empty\n");
+            System.out.println("Your cart is empty\n");
         else {
             List<CartItem> cartItems = cart.getOrderedItems();
             Comparator<CartItem> comparator = new Comparator<CartItem>() {
@@ -25,7 +25,7 @@ public class CartView {
             };
             Collections.sort(cartItems, comparator);
             cartItemView.printOrderItems(cart.getOrderedItems());
-            System.out.println("total cost: " + cartServices.getTotalCost(cart) + "\n");
+            System.out.println("Total Cost: " + cartServices.getTotalCost(cart) + "\n");
         }
     }
 
@@ -47,10 +47,10 @@ public class CartView {
     public void finalizeOrder(Cart cart) {
         CartServices cartServices = new CartServices();
         if (cart.getOrderedItems().isEmpty())
-            System.out.println("your orderList is empty\n");
+            System.out.println("Your cart is empty\n");
         else {
             cart.setDate();
-            System.out.println("where do you wanna receive your purchase:\n1-My Account Address\n2-another Address");
+            System.out.println("Where do you wanna receive your purchase:\n1-My Account Address\n2-Another Address");
             int addressItem = GetUserInputs.getInBoundDigitalInput(2);
             if (addressItem == 1)
                 cart.setAddress(cart.getCustomer().getAddress());
