@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93f71f17-8b9d-4551-83f2-8d6afa8e66b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hw12_2_makingWords/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/AdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw12_1_unOrderedPairs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw12_1_unOrderedPairs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw12_2_makingWords/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw12_2_makingWords/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +39,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/maktab/sentProjects/src" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.18882681" />
     <property name="project.structure.side.proportion" value="0.3647343" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HW10_Refactored" />
@@ -61,7 +68,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -87,6 +93,11 @@
       <workItem from="1588614680248" duration="1850000" />
       <workItem from="1591359732918" duration="435000" />
       <workItem from="1591374701324" duration="30395000" />
+      <workItem from="1591447654192" duration="734000" />
+      <workItem from="1591453833882" duration="1568000" />
+      <workItem from="1592667140539" duration="691000" />
+      <workItem from="1592819323582" duration="510000" />
+      <workItem from="1592820197934" duration="2143000" />
     </task>
     <task id="LOCAL-00001" summary="enhancing CartDao methods">
       <created>1591441365444</created>
@@ -162,10 +173,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="471" y="21" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591446699443" />
-    <state x="583" y="157" key="FileChooserDialogImpl" timestamp="1588222148455">
+    <state x="583" y="157" key="FileChooserDialogImpl" timestamp="1592819427622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="583" y="157" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588222148455" />
+    <state x="583" y="157" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592819427622" />
     <state width="1493" height="387" key="GridCell.Tab.0.bottom" timestamp="1591446731518">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -206,10 +217,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588402060590" />
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1588337993190">
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1592819342716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588337993190" />
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592819342716" />
     <state x="580" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591442489408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -230,16 +241,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588402403621" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/view/Main.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

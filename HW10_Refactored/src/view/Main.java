@@ -18,7 +18,7 @@ public class Main {
         AdminView adminView = new AdminView();
 
         while (true) {
-            Customer customer = null;
+            Customer customer;
             Cart cart = new Cart();
             Admin admin = new Admin();
             System.out.println("1)SignIn\n2)SignUp");

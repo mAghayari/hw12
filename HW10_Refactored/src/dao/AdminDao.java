@@ -10,8 +10,7 @@ import java.sql.SQLException;
 public class AdminDao {
 
     public Admin fetchAdmin(Admin admin) {
-        Connection connection = Connector.getConnection();
-        try {
+        try (Connection connection = Connector.getConnection()) {
             String query = "SELECT* FROM `admin` WHERE adminName = ? AND password = ?";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
             preparedStatement.setString(1, admin.getUserName());
@@ -24,6 +23,7 @@ public class AdminDao {
                 admin.setName(resultSet.getString("adminName"));
                 admin.setPassword(resultSet.getString("password"));
             }
+            preparedStatement.close();
             return admin;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -32,8 +32,7 @@ public class AdminDao {
     }
 
     public boolean addAdmin(Admin admin) {
-        try {
-            Connection connection = Connector.getConnection();
+        try (Connection connection = Connector.getConnection()) {
             String query = "INSERT INTO `admin`(`adminName`, `password`) VALUES (?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
 
@@ -41,7 +40,6 @@ public class AdminDao {
             preparedStatement.setString(2, admin.getPassword());
             preparedStatement.executeUpdate();
             preparedStatement.close();
-            connection.close();
             return true;
         } catch (SQLException e) {
             e.printStackTrace();
