@@ -8,21 +8,21 @@ import java.util.List;
 
 public class CartServices {
 
-    public Cart cancelOrder(Cart cart) {
+    public Cart cancelCart(Cart cart) {
         ProductServices productServices = new ProductServices();
-        List<CartItem> orderedItems = cart.getOrderedItems();
+        List<CartItem> cartItems = cart.getCartItems();
 
-        productServices.getAllSoledItemsBack(orderedItems);
+        productServices.getAllSoledItemsBack(cartItems);
         return cart;
     }
 
     public double getTotalCost(Cart cart) {
-        cart.setTotalCost(cart.getOrderedItems());
+        cart.setTotalCost(cart.getCartItems());
         return cart.getTotalCost();
     }
 
     public void addingOrder(Cart cart) {
         CartDao cartDao = new CartDao();
-        cartDao.addAnOrder(cart);
+        cartDao.addACart(cart);
     }
 }

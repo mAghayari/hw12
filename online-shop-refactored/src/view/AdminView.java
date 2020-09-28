@@ -10,7 +10,7 @@ public class AdminView {
     public Admin registerAdmin() {
         Admin admin = new Admin();
         System.out.println("registering a new admin:\nEnter userName:");
-        admin.setName(GetUserInputs.getUserNameString());
+        admin.setAdminName(GetUserInputs.getUserNameString());
         System.out.println("Enter password:");
         admin.setPassword(GetUserInputs.getPasswordString());
         return admin;
@@ -19,7 +19,7 @@ public class AdminView {
     public Admin getSignInInfo() {
         Admin admin = new Admin();
         System.out.println("userName:");
-        admin.setName(GetUserInputs.getUserNameString());
+        admin.setAdminName(GetUserInputs.getUserNameString());
         System.out.println("password:");
         admin.setPassword(GetUserInputs.getPasswordString());
         return admin;

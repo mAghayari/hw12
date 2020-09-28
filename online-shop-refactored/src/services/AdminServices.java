@@ -4,7 +4,6 @@ import dao.AdminDao;
 import dto.admin.Admin;
 
 public class AdminServices {
-
     public Admin signUp(Admin admin) {
         AdminDao adminDao = new AdminDao();
         adminDao.addAdmin(admin);

@@ -52,7 +52,7 @@ public class Main {
                     int mainMenuItem = GetUserInputs.getInBoundDigitalInput(6);
                     subMenu:
                     while (true) {
-                        products = productDao.getAllProducts();
+                        products = productDao.fetchAllProducts();
                         switch (mainMenuItem) {
                             case 1:
                                 System.out.println("1-Electronics\n2-Readings\n3-Shoes\n4-Main Menu");
@@ -72,7 +72,7 @@ public class Main {
                                 }
                                 break;
                             case 2:
-                                if (cart.getOrderedItems().isEmpty())
+                                if (cart.getCartItems().isEmpty())
                                     System.out.println("your orderList is empty\n");
                                 else {
                                     CartView cartView = new CartView();
@@ -83,7 +83,7 @@ public class Main {
                                 CartView.printOrder(cartServices, cart);
                                 break subMenu;
                             case 4:
-                                if (cart.getOrderedItems().isEmpty())
+                                if (cart.getCartItems().isEmpty())
                                     System.out.println("your orderList is empty\n");
                                 else {
                                     CartView cartView = new CartView();

@@ -10,10 +10,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class ProductDao {
+    Connection connection = Connector.getConnection();
 
-    public ArrayList<Product> getAllProducts() {
+    public ArrayList<Product> fetchAllProducts() {
         ArrayList<Product> products = new ArrayList<>();
-        Connection connection = Connector.getConnection();
         try {
             String query = "SELECT* FROM product";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
@@ -44,7 +44,6 @@ public class ProductDao {
     }
 
     public void updateProduct(Product product) {
-        Connection connection = Connector.getConnection();
         try {
             String query = "UPDATE product SET stock = ? where id = ?";
             PreparedStatement preparedStatement = connection.prepareStatement(query);

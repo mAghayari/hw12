@@ -2,7 +2,7 @@ package dto.admin;
 
 public class Admin {
     private  int id;
-    private String name;
+    private String adminName;
     private String password;
 
     public int getId() {
@@ -14,11 +14,11 @@ public class Admin {
     }
 
     public String getUserName() {
-        return name;
+        return adminName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setAdminName(String adminName) {
+        this.adminName = adminName;
     }
 
     public String getPassword() {

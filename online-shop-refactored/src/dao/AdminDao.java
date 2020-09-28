@@ -20,7 +20,7 @@ public class AdminDao {
 
             while (resultSet.next()) {
                 admin.setId(resultSet.getInt("id"));
-                admin.setName(resultSet.getString("adminName"));
+                admin.setAdminName(resultSet.getString("adminName"));
                 admin.setPassword(resultSet.getString("password"));
             }
             preparedStatement.close();

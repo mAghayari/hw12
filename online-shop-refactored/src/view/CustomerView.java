@@ -8,10 +8,14 @@ import java.util.*;
 public class CustomerView {
     public CustomerServices customerServices = new CustomerServices();
 
+    private static int compare(Customer customer1, Customer customer2) {
+        return Integer.compare(customer1.getAge(), customer2.getAge());
+    }
+
     public Customer registerCustomer() {
         Customer customer = new Customer();
 
-        System.out.println("registering a new User:\nEnter First Name:");
+        System.out.println("Registering a new User:\nEnter First Name:");
         customer.setFirstName(GetUserInputs.getLetteringString());
 
         System.out.println("Enter last Name:");
@@ -47,9 +51,9 @@ public class CustomerView {
 
     public Customer getSignInInfo() {
         Customer customer = new Customer();
-        System.out.println("userName:");
+        System.out.println("UserName:");
         customer.setUserName(GetUserInputs.getUserNameString());
-        System.out.println("password:");
+        System.out.println("Password:");
         customer.setPassword(GetUserInputs.getPasswordString());
         return customer;
     }
@@ -77,13 +81,7 @@ public class CustomerView {
     }
 
     private static void sortingCustomers(ArrayList<Customer> customers) {
-        Comparator<Customer> comparator = new Comparator<Customer>() {
-            @Override
-            public int compare(Customer customer1, Customer customer2) {
-                return customer1.getAge() < customer2.getAge() ? -1 :
-                        (customer1.getAge() == customer2.getAge() ? 0 : 1);
-            }
-        };
+        Comparator<Customer> comparator = CustomerView::compare;
         customers.sort(comparator);
     }
 

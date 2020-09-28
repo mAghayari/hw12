@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class CartDao {
-    public void addAnOrder(Cart cart) {
+    public void addACart(Cart cart) {
         try (Connection connection = Connector.getConnection()) {
             String query = "INSERT INTO `cart`(`customerId`, `address`, `totalCost`, `cartDate`, `cartItems`) VALUES (?, ?, ?, ?, ?)";
 
@@ -16,7 +16,7 @@ public class CartDao {
             preparedStatement.setString(2, cart.getAddress().toString());
             preparedStatement.setDouble(3, cart.getTotalCost());
             preparedStatement.setTimestamp(4, cart.getDate());
-            preparedStatement.setString(5, cart.getOrderedItems().toString());
+            preparedStatement.setString(5, cart.getCartItems().toString());
             preparedStatement.executeUpdate();
 
             preparedStatement.close();

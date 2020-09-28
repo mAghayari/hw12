@@ -13,10 +13,10 @@ import java.util.List;
 public class CartView {
     public static void printOrder(CartServices cartServices, Cart cart) {
         CartItemView cartItemView = new CartItemView();
-        if (cart.getOrderedItems().isEmpty())
+        if (cart.getCartItems().isEmpty())
             System.out.println("Your cart is empty\n");
         else {
-            List<CartItem> cartItems = cart.getOrderedItems();
+            List<CartItem> cartItems = cart.getCartItems();
             Comparator<CartItem> comparator = new Comparator<CartItem>() {
                 @Override
                 public int compare(CartItem orderItem1, CartItem orderItem2) {
@@ -24,7 +24,7 @@ public class CartView {
                 }
             };
             Collections.sort(cartItems, comparator);
-            cartItemView.printOrderItems(cart.getOrderedItems());
+            cartItemView.printOrderItems(cart.getCartItems());
             System.out.println("Total Cost: " + cartServices.getTotalCost(cart) + "\n");
         }
     }
@@ -38,7 +38,7 @@ public class CartView {
         if (editItem == 1) {
             cartItemView.deleteAnOrderItem(cart, products);
         } else if (editItem == 2) {
-            cart = cartServices.cancelOrder(cart);
+            cart = cartServices.cancelCart(cart);
             cart.setOrderedItems(new ArrayList<>());
         }
         return cart;
@@ -46,7 +46,7 @@ public class CartView {
 
     public void finalizeOrder(Cart cart) {
         CartServices cartServices = new CartServices();
-        if (cart.getOrderedItems().isEmpty())
+        if (cart.getCartItems().isEmpty())
             System.out.println("Your cart is empty\n");
         else {
             cart.setDate();

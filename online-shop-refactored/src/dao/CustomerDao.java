@@ -12,8 +12,10 @@ public class CustomerDao {
 
     public boolean addCustomer(Customer customer) {
         try {
-            String query = "INSERT INTO `customer`(`firstName`, `lastName`, `mobileNumber`, `email`, `address`, `userName`, `password`,`age`) VALUES (?,?,?,?,?,?,?,?)";
+            String query = "INSERT INTO `customer`(`firstName`, `lastName`, `mobileNumber`, `email`, `address`, `userName`, " +
+                    "`password`,`age`) VALUES (?,?,?,?,?,?,?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
+
             preparedStatement.setString(1, customer.getFirstName());
             preparedStatement.setString(2, customer.getLastName());
             preparedStatement.setString(3, customer.getMobileNumber());
@@ -23,6 +25,7 @@ public class CustomerDao {
             preparedStatement.setString(7, customer.getPassword());
             preparedStatement.setInt(8, customer.getAge());
             preparedStatement.executeUpdate();
+
             preparedStatement.close();
             connection.close();
             customerCounter++;
@@ -34,7 +37,6 @@ public class CustomerDao {
     }
 
     public Customer fetchCustomer(Customer customer) {
-        Connection connection = Connector.getConnection();
         try {
             String query = "SELECT* FROM `customer` WHERE userName = ? AND password = ?";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
@@ -53,7 +55,6 @@ public class CustomerDao {
 
     public ArrayList<Customer> fetchAllCustomers() {
         ArrayList<Customer> customers = new ArrayList<>();
-        Connection connection = Connector.getConnection();
         try {
             String query = "SELECT* FROM customer";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
@@ -77,14 +78,14 @@ public class CustomerDao {
         customer.setLastName(resultSet.getString("lastName"));
         customer.setMobileNumber(resultSet.getString("mobileNumber"));
         customer.setEmail(resultSet.getString("email"));
-        customer.setAddress(getCustomerAddress(resultSet));
+        customer.setAddress(fetchCustomerAddress(resultSet));
         customer.setUserName(resultSet.getString("userName"));
         customer.setPassword(resultSet.getString("password"));
         customer.setAge(resultSet.getInt("age"));
         return customer;
     }
 
-    private Address getCustomerAddress(ResultSet resultSet) throws SQLException {
+    private Address fetchCustomerAddress(ResultSet resultSet) throws SQLException {
         String[] address = resultSet.getString("address").split(" ");
         Address customerAddress = new Address();
         customerAddress.setProvince(address[0]);

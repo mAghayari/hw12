@@ -13,7 +13,7 @@ public class CartItemView {
 
     public void deleteAnOrderItem(Cart cart, ArrayList<Product> products) {
         ProductServices productServices = new ProductServices();
-        List<CartItem> orderedItems = cart.getOrderedItems();
+        List<CartItem> orderedItems = cart.getCartItems();
 
         printOrderItems(orderedItems);
 
@@ -43,7 +43,7 @@ public class CartItemView {
     }
 
     public void addProductToCart(Cart cart, ProductDao productDao, ArrayList<Product> products, String category) {
-        if (cart.getOrderedItems().size() >= 5) {
+        if (cart.getCartItems().size() >= 5) {
             System.out.println("There are 5 products in your orderList,\nFinalize them or remove some then continue shopping.");
         } else {
             ArrayList<Product> categoryProducts = ProductView.getProperProducts(category, products);
@@ -59,7 +59,7 @@ public class CartItemView {
                     System.out.println("How much do you wanna by?(must be in stock's bound)");
                     int count = GetUserInputs.getInBoundDigitalInput(stock);
 
-                    List<CartItem> orderedItems = cart.getOrderedItems();
+                    List<CartItem> orderedItems = cart.getCartItems();
                     boolean isInList = orderedItems.stream().anyMatch(orderItem -> orderItem.getProduct().getId() == id);
                     if (isInList) {
                         updateAnOrderItem(id, count, orderedItems);

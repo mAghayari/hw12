@@ -48,7 +48,7 @@ public class Cart {
         orderedItems.forEach(orderItem -> totalCost += orderItem.getCount() * orderItem.getProduct().getPrice());
     }
 
-    public List<CartItem> getOrderedItems() {
+    public List<CartItem> getCartItems() {
         return orderedItems;
     }
 

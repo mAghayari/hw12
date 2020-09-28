@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93f71f17-8b9d-4551-83f2-8d6afa8e66b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hw12_2_makingWords/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/AdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/CartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/CartDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/admin/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/admin/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dto/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dto/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/product/ProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/product/ProductCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/AdminServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/AdminServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/CartServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/CartServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/AdminView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/CartItemView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/CartItemView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/CartView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/CartView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/CustomerView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw12_1_unOrderedPairs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw12_1_unOrderedPairs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw12_2_makingWords/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw12_2_makingWords/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +104,8 @@
       <workItem from="1591453833882" duration="1568000" />
       <workItem from="1592667140539" duration="691000" />
       <workItem from="1592819323582" duration="510000" />
-      <workItem from="1592820197934" duration="2143000" />
+      <workItem from="1592820197934" duration="5521000" />
+      <workItem from="1594996373746" duration="1466000" />
     </task>
     <task id="LOCAL-00001" summary="enhancing CartDao methods">
       <created>1591441365444</created>
@@ -141,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591446700599</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="apply some clean code changes">
+      <created>1592822556163</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592822556163</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +169,8 @@
     <MESSAGE value="add service package and its classes to communicate with dao" />
     <MESSAGE value="add view package and its classes to communicate with user" />
     <MESSAGE value="bugs fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="bugs fixed" />
+    <MESSAGE value="apply some clean code changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="apply some clean code changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#Project_Structure" timestamp="1588142821732">
@@ -169,10 +185,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1591439900907" />
-    <state x="471" y="21" key="CommitChangelistDialog2" timestamp="1591446699443">
+    <state x="471" y="21" key="CommitChangelistDialog2" timestamp="1592822552489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="471" y="21" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591446699443" />
+    <state x="471" y="21" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592822552489" />
     <state x="583" y="157" key="FileChooserDialogImpl" timestamp="1592819427622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
